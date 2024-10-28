@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Nunito:wght@300;400;600;700;800;900&family=Russo+One&family=Spartan:wght@700;800;900&display=swap');
+
+.skill_ul>li{
+    border: 1px solid #444;
+        padding: 0.4em 0.8em;
+        border-radius: 50px;
+        margin-bottom: 0.5em;
+        margin-right: 0.5em;
+}
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #aaaaaa00;
+    /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #88888887;
+    /* Color of the scrollbar thumb */
+    border-radius: 10px;
+    /* Round the edges of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5555557e;
+    /* Color on hover */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    /* "auto" or "thin" */
+    scrollbar-color: #88888879 #aaaaaa00;
+    /* thumb and track color */
+}
